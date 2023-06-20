@@ -1,0 +1,28 @@
+header{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px red solid;
+}
+
+header h1{
+    width: 50%;
+    border: 1px black solid;
+}
+
+header nav{
+    width: 50%;
+    border: 1px black solid;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+figure{
+    background-image: url(https://placehold.co/1024x870);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+}
