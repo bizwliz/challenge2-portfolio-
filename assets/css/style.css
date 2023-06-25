@@ -27,6 +27,10 @@ figure {
     height: 200px;
 }
 
+img{
+    width: 100%;
+}
+
 .left-side {
     display: flex;
     flex-wrap: wrap;
@@ -35,9 +39,42 @@ figure {
 .left-side .title {
     width: 10%;
     border-right: 2px black solid;
+    text-align: right;
 }
 
 .left-side .section-container {
     width: 88%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
+.card {
+    width: 45%;
+    position: relative;
+    margin-top: 20px;
+}
+
+.card h3 {
+    position: absolute;
+    z-index: 1;
+    bottom: 10%;
+}
+
+.section-container ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#image1 {
+    position: relative;
+    margin-top: 20px;
+}
+
+#image1 h3 {
+    position: absolute;
+    z-index: 1;
+    bottom: 10%;
 }
