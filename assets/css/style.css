@@ -1,28 +1,43 @@
-header{
+header {
     display: flex;
     flex-wrap: wrap;
     border: 1px red solid;
 }
 
-header h1{
+header h1 {
     width: 50%;
     border: 1px black solid;
 }
 
-header nav{
+header nav {
     width: 50%;
     border: 1px black solid;
 }
 
-nav ul{
+nav ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
-figure{
+figure {
     background-image: url(https://placehold.co/1024x870);
     background-size: cover;
     background-repeat: no-repeat;
     height: 200px;
+}
+
+.left-side {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left-side .title {
+    width: 10%;
+    border-right: 2px black solid;
+}
+
+.left-side .section-container {
+    width: 88%;
+
 }
