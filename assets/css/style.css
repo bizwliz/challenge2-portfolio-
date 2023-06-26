@@ -1,17 +1,27 @@
 header {
+    position: relative;
     display: flex;
     flex-wrap: wrap;
-    border: 1px red solid;
+    background-color: #e3f6fc;
+    ;
 }
 
 header h1 {
-    width: 50%;
-    border: 1px black solid;
+    font-size: 40px;
+    font-family: arial;
+    color: #6da1c9;
+    text-align: left;
+    width: 30%;
+    padding-top: 20px;
+    border: 3px #a6e7ff solid;
 }
 
 header nav {
-    width: 50%;
-    border: 1px black solid;
+    font-size: 25px;
+    font-family: arial;
+    width: 70%;
+    padding-top: 20px;
+    border: 3px #a6e7ff solid;
 }
 
 nav ul {
@@ -20,13 +30,10 @@ nav ul {
     justify-content: space-evenly;
 }
 
-figure {
-    background-image: url(https://placehold.co/1024x870);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 200px;
+a:hover {
+    color: #6da1c9;
 }
-
+  
 img{
     width: 100%;
 }
@@ -40,6 +47,10 @@ img{
     width: 10%;
     border-right: 2px black solid;
     text-align: right;
+    font-size: 25px;
+    font-family: arial;
+    padding: 10px;
+    color: #6da1c9;
 }
 
 .left-side .section-container {
@@ -47,6 +58,7 @@ img{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding: 10px;
 }
 
 .card {
@@ -78,3 +90,4 @@ img{
     z-index: 1;
     bottom: 10%;
 }
+
