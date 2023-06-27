@@ -31,9 +31,9 @@ I learned how to use advanced CSS to give my website life, an example will be wi
 
 ## Usage
 
-Link to website: 
+Link to website: https://bizwliz.github.io/challenge2-portfolio-/
 
-<img src="">
+<img src="./assets/images/websitephoto.png">
 
 ---
 
